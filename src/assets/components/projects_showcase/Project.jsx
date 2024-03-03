@@ -1,5 +1,5 @@
 import react from 'react'
-
+import '../css/Project.module.css'
 function Project(props) {
 
     //destructuring
@@ -17,4 +17,4 @@ function Project(props) {
             </div>
         </div>
     )
-}
+} export default Project

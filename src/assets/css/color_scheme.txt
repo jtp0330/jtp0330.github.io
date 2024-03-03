@@ -1,0 +1,6 @@
+Color Scheme Used
+
+#161748 - Purple baseline (text)
+#bccbde - Grey silver (default background)
+#4f5f76 - Grey Blue Leaf (footer)
+#781a44 - Shadow Purple Red (Project item background)

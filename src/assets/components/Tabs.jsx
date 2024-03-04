@@ -11,18 +11,18 @@ function Tabs() {
 
     return (
         <Tab.Container id="portfolio-nav" defaultActiveKey="home">
-            <Nav variant="pills" className={tabstyle.tabLinks}>
+            <Nav variant="pills" className={tabstyle.tabLinks} >
                 <Nav.Item className="nav-links p-1">
-                    <Nav.Link eventKey="home">Home</Nav.Link>
+                    <Nav.Link eventKey="home" active={false} timeout={1.5}>Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="nav-links p-1">
-                    <Nav.Link eventKey="about">About</Nav.Link>
+                    <Nav.Link eventKey="about" active={false} timeout={1.5}>About</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="nav-links p-1">
-                    <Nav.Link eventKey="projects">Projects</Nav.Link>
+                    <Nav.Link eventKey="projects" active={false} timeout={1.5}>Projects</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="nav-links p-1">
-                    <Nav.Link eventKey="contact">Contact</Nav.Link>
+                    <Nav.Link eventKey="contact" active={false} timeout={1.5}>Contact</Nav.Link>
                 </Nav.Item>
             </Nav>
             <Tab.Content className={tabstyle.tabContents}>

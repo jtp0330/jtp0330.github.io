@@ -1,0 +1,11 @@
+.project_content {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #781a44;
+    width: 50%;
+    margin: 25px auto;
+    border-radius: 25px;
+}

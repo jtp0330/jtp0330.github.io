@@ -1,5 +1,9 @@
 .tabLinks {
+    display: flex;
+    justify-content: flex-end;
     background-color: #8596ad;
+    padding-right: 25px;
+    gap: 25px;
 }
 
 .tabContents {

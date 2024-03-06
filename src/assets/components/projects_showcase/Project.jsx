@@ -1,21 +1,24 @@
 import react from 'react'
 import projectstyle from '../..//css/Project.module.css'
+import Card from 'react-bootstrap/Card'
 const Project = (props) => {
 
     //destructuring
     const { projectName, projectDescription, projectLink } = props;
 
     return (
-        <div className="project">
-            <div className={projectstyle.project_content}>
-                <img src="" alt="Project picture" />
+        <Card className={projectstyle.project_content}>
+            <Card.Img variant="top" src="#" alt="Project picture" />
+            <Card.Body>
                 <div className="project-text">
-                    <h3 id="project_header">{projectName}</h3>
-                    <p>{projectDescription}</p>
-                    <a href={projectLink}>{projectLink}</a>
+                    <Card.Title><h3 id="project_header">{projectName}</h3></Card.Title>
+                    <Card.Text>
+                        <p>{projectDescription}</p>
+                        <a href={projectLink}>{projectLink}</a>
+                    </Card.Text>
                 </div>
-            </div>
-        </div>
+            </Card.Body>
+        </Card>
     )
 }
 export default Project;

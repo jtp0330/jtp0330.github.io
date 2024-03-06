@@ -1,0 +1,7 @@
+.showcase {
+    transition: all .2s ease-in-out;
+}
+
+.showcase:hover {
+    transform: scale(1.1);
+}

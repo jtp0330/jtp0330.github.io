@@ -8,6 +8,8 @@ function Showcase() {
                 <h1>My Projects</h1>
             </header>
             <Project projectName="Test Project" projectDescription="This a test" projectLink="Test Link" />
+            <Project projectName="Test Project" projectDescription="This a test" projectLink="Test Link" />
+            <Project projectName="Test Project" projectDescription="This a test" projectLink="Test Link" />
         </div>
     );
 } export default Showcase

@@ -1,12 +1,16 @@
 .project_content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 25px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: #781a44;
     width: 50%;
     margin: 25px auto;
     border-radius: 25px;
-    color:white;
+    padding-left: 25px;
+}
+
+.project_content:hover {
+    transform: scale(1.1);
 }

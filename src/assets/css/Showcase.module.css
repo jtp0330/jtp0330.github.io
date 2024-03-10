@@ -1,7 +1,14 @@
 .showcase {
     transition: all .2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-evenly;
+
 }
 
-.showcase:hover {
-    transform: scale(1.1);
+.projects {
+    display: inherit;
+    flex-direction: row;
+    gap: 25px;
 }

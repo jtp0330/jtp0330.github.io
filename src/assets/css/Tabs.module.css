@@ -7,5 +7,14 @@
 }
 
 .tabContents {
-    background-color: #bccbde;
+    background-color: #8596ad;
+    width: 50%;
+}
+
+.navLinks {
+    background-color: #8596ad;
+}
+
+.tab {
+    background-color: #8596ad;
 }

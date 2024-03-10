@@ -14,7 +14,7 @@ const Project = (props) => {
                 <div className="project-text">
                     <Card.Title><h3 id="project_header">{projectName}</h3></Card.Title>
                     <Card.Text>
-                        {/* <p>{projectDescription}</p> */}
+                        <p>{projectDescription}</p> */
                         <a href={projectLink}>{projectLink}</a>
                     </Card.Text>
                 </div>

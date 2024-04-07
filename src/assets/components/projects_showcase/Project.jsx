@@ -8,7 +8,7 @@ const Project = (props) => {
     const { projectName, projectDescription, projectLink } = props;
 
     return (
-        <Card className={`${projectstyle.project_content} hover-zoom hover-shadow`} bg="dark" border="light">
+        <Card className={`${projectstyle.projectContent} hover-zoom hover-shadow`} bg="dark" border="light">
             <Card.Img variant="top" src="#" alt="Project picture" />
             <Card.Body>
                 <div className="project-text">

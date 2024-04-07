@@ -1,3 +1,10 @@
+.home_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .introduction {
     display: flex;
     flex-direction: row;
@@ -8,9 +15,18 @@
     margin: 50px auto;
     background-color: #8596ad;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px rgb(63, 56, 56);
+    gap: 25px;
 }
 
 img {
     border-radius: 10px;
     margin: 10px;
+    box-shadow: 1px 1px 5px rgb(236, 224, 224);
+}
+
+p {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16pt;
 }

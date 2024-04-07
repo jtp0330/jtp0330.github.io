@@ -1,4 +1,4 @@
-.project_content {
+.projectContent {
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -11,6 +11,8 @@
     padding-left: 25px;
 }
 
-.project_content:hover {
+.projectContent:hover {
     transform: scale(1.1);
+    box-shadow: 3px 3px 5px black;
+    animation-timing-function: ease;
 }

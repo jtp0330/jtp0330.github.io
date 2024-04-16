@@ -30,3 +30,13 @@ p {
     border-radius: 10px;
     font-size: 16pt;
 }
+
+.screenHidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.screenVisible {
+    opacity: 1;
+    transition: all 1s;
+}

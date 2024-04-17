@@ -4,11 +4,24 @@
     flex-direction: column;
     gap: 25px;
     justify-content: space-evenly;
-
 }
 
 .projects {
     display: inherit;
     flex-direction: row;
     gap: 25px;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }

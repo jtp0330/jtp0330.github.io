@@ -1,0 +1,14 @@
+.contact {
+    animation-duration: 5s;
+    animation-name: fadeIn 5s;
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+}

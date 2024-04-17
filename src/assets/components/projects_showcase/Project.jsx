@@ -1,5 +1,5 @@
 import react from 'react'
-import projectstyle from '../..//css/Project.module.css'
+import projectstyle from '../../css/Project.module.css'
 import Card from 'react-bootstrap/Card'
 
 const Project = (props) => {

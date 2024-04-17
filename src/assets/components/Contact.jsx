@@ -1,8 +1,9 @@
 import react from 'react'
+import contactstyle from '../css/Contact.module.css'
 
-function Contact() {
+const Contact = () => {
     return (
-        <div className="contact text-center">
+        <div className={`${contactstyle.contact} text-center`}>
             <h1>Let's Get In Touch!</h1>
 
             {/* TBD: replace with a form */}
@@ -11,6 +12,7 @@ function Contact() {
                 <li><a href="https://www.linkedin.com/in/jared-park-computer-scientist159/">LinkedIn</a></li>
                 <li><a href="https://github.com/jtp0330">GitHub</a></li>
             </ul>
-        </div>
+        </div >
     );
-} export default Contact
+}
+export default Contact

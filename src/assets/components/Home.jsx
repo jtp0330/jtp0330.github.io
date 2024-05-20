@@ -9,18 +9,8 @@ function Home() {
 
     const [isIntersecting, setisIntersecting] = useState(false);
     const ref = useRef(null);
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                setisIntersecting(entry.isIntersecting);
-            },
-            { rootMargin: "-300px" }
-        );
-        console.log(isIntersecting)
-        observer.observe(ref.current);
-        return () => observer.disconnect();
-    }, [isIntersecting]);
+    const titleRef = useRef(null);
+    const portraitRef = useRef(null);
 
 
     useEffect(() => {
@@ -35,10 +25,23 @@ function Home() {
         }
     }, [isIntersecting])
 
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                setisIntersecting(entry.isIntersecting);
+            },
+            { rootMargin: "-300px" }
+        );
+        console.log(isIntersecting);
+        observer.observe(ref.current);
+        return () => observer.disconnect();
+    }, [isIntersecting]);
+
+
     return (
         <div className={homestyle.home_page}>
             <header>
-                <h1 className={homestyle.screenVisible}>Welcome</h1>
+                <h1 className={homestyle.screenVisible} ref={ref}>Welcome</h1>
             </header>
             <main>
                 <div className={homestyle.introduction + ' ' + homestyle.screenHidden} ref={ref}>
@@ -55,5 +58,32 @@ function Home() {
         </div>
     )
 
+
+
+    //assist code
+    //     useEffect(() => {
+    //         const observer = new IntersectionObserver(entries => {
+    //             const entry = entries[0];
+    //             setIsVisible(entry.isIntersecting);
+    //         });
+
+    //         if (titleRef.current) {
+    //             observer.observe(titleRef.current);
+    //         }
+
+    //         return () => observer.disconnect();
+    //     }, [titleRef]);
+
+    //     return (
+    //         <div className="welcome-page">
+    //             <div className="title-container" ref={titleRef}>
+    //                 <h1 className={`title ${isVisible ? 'visible' : ''}`}>Welcome!</h1>
+    //             </div>
+    //             <div className="portrait-container" ref={portraitRef}>
+    //                 <img src="your-portrait.jpg" alt="Your Portrait" className={`portrait ${isVisible ? 'visible' : ''}`} />
+    //             </div>
+    //         </div>
+    //     );
+    // };
 
 } export default Home

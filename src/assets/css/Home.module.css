@@ -1,13 +1,18 @@
 .home_page {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     animation-duration: 0.75s;
-    animation-name: fadeIn;
+    animation-name: fadeIn; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     0% {
         opacity: 0;
     }
@@ -15,7 +20,7 @@
     100% {
         opacity: 1;
     }
-}
+} */
 
 .introduction {
     display: flex;
@@ -43,12 +48,16 @@ p {
     font-size: 16pt;
 }
 
-.screenHidden {
+.title {
     opacity: 0;
-    transition: all 1s;
+    transition: opacity 0.5s ease-in-out;
 }
 
-.screenVisible {
+.portrait {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.visible {
     opacity: 1;
-    transition: all 1s;
 }

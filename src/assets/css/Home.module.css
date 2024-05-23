@@ -9,7 +9,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
 /* @keyframes fadeIn {
@@ -46,6 +45,13 @@ p {
     padding: 10px;
     border-radius: 10px;
     font-size: 16pt;
+}
+
+header{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {

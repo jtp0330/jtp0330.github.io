@@ -1,9 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .tabLinks {
     display: flex;
     justify-content: flex-end;
     background-color: #8596ad;
     padding-right: 25px;
     gap: 25px;
+    position:fixed;
+    top:0%;
+    width: 100%;
+    z-index: 1;
 }
 
 .tabContents {

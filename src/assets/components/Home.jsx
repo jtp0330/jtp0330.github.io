@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useInView, InView } from 'react-intersection-observer'
 import homestyle from '../css/Home.module.css'
+import { defer } from 'react-router-dom';
 //utilize intersection observer to display welcome, then your infor card
 
 

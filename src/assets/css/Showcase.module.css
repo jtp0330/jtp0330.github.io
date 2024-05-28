@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .showcase {
     transition: all .2s ease-in-out;
     display: flex;
     flex-direction: column;
     gap: 25px;
     justify-content: space-evenly;
+    margin-top: 75px;
 }
 
 .projects {

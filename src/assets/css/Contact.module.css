@@ -1,6 +1,7 @@
 .contact {
     animation-duration: 1s;
     animation-name: fadeIn;
+    margin-top: 75px;
 }
 
 @keyframes fadeIn {

@@ -6,8 +6,6 @@ import { defer } from 'react-router-dom';
 
 
 //sections for our home page
-const sections = document.querySelectorAll(`.${homestyle.change}`);
-console.log(sections)
 const Home = () => {
 
     // const [isVisible, setIsVisible] = useState(sections[0]);
@@ -15,6 +13,8 @@ const Home = () => {
     // const elementsRef = useRef([])
 
     useEffect(() => {
+        const sections = document.querySelectorAll(`.${homestyle.change}`);
+        console.log(sections);
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {

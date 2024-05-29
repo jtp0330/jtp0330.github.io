@@ -19,6 +19,7 @@
     gap: 25px;
     animation-duration: 1s;
     animation-name: slidein;
+    margin: 10px;
 }
 
 @keyframes slidein {

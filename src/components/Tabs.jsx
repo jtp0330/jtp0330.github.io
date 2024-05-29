@@ -7,7 +7,7 @@ import Contact from './Contact.jsx';
 import tabstyle from '../css/Tabs.module.css'
 //use Tab Pills for desired effect
 
-function Tabs() {
+const Tabs = () => {
 
     return (
         <Tab.Container id="portfolio-nav" defaultActiveKey="home">
@@ -35,4 +35,5 @@ function Tabs() {
 
 
     )
-} export default Tabs
+};
+export default Tabs

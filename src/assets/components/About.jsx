@@ -14,7 +14,7 @@ function About() {
                 <br />After high school, I furthered my knownledge and expertise by obtaining
                 <br />a Bachelor's Degree in CS at San Jose State University.
                 <br />While studying, I secured an internship at [24]7.ai, as an IT Support Engineer I where I focus primarily on
-                <br />maintaining corporate systems, Identity Access Management(IAM), and developing scripts to more efficienlty
+                <br />maintaining corporate systems, Identity Access Management(IAM), and developing scripts to more efficiently
                 <br />deploy, manage and delegate IT-managed software and hardening.
                 <br />
                 <br />Skills

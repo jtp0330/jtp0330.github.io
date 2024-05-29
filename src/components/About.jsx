@@ -21,9 +21,8 @@ function About() {
             </p>
 
             <div className="skills">
-                <p>dropdown</p>
-                <p>List of Toasts that filter and align, based on drop down option</p>
-                <p>Toast should have skillname, and progress bar for proficiency</p>    
+                <p>List of cards that filter and align,based on grid</p>
+                <p>cards should have skillname, and progress bar for proficiency</p>
             </div>
         </div>
     );

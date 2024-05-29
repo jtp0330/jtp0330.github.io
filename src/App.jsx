@@ -1,5 +1,5 @@
 import react from 'react'
-import Tabs from './assets/components/Tabs'
+import Tabs from './components/Tabs'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {

@@ -11,7 +11,26 @@
 }
 
 .proficiency {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    padding: 3px;
+    border-radius: 30px;
+}
+
+.progressBar {
+    height: 5px;
+    border-radius: 30px;
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+    animation: progressAnimation 6s;
+}
+
+@keyframes progressAnimation {
+    0% {
+        width: 5%;
+        background-color: aqua;
+    }
+
+    100% {
+        width: 100%;
+        background-color: aqua;
+    }
 }

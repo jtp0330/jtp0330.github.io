@@ -38,8 +38,9 @@ const Home = () => {
             </header>
             <main>
                 <div className={`${homestyle.introduction} ${homestyle.change}`}>
-                    <img src="./src/images/Portrait.jpeg" alt="My Portrait" width="400" height="545" />
-                    <p>My name, is Jared Park.I am a SWE | IT Support | Cloud Operations with an interest in Cloud Computing.</p>
+                    <img src="./src/images/Portrait.jpeg" alt="My Portrait" width="650" height="745" />
+                    <p>My name, is Jared Park
+                        <br />I am a SWE | IT Support | Cloud Operations with an interest in Cloud Computing</p>
                 </div>
             </main>
         </div>

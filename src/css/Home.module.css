@@ -22,12 +22,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 65%;
+    width: 85%;
     margin: 10% auto;
     background-color: #8596ad;
     border-radius: 25px;
     box-shadow: 5px 5px 5px rgb(63, 56, 56);
     gap: 25px;
+    height: 68vh;
 }
 
 .header {

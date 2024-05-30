@@ -8,11 +8,14 @@ const Skill = (props) => {
     return (
         <div className={skillstyle.skillz}>
             <img src={imgPath} alt="app logo" width="100" height="100" />
-            <div className="proficiency">
+            <div className={skillstyle.proficiency}>
                 <h2>{appName}</h2>
-                <ProgressBar now={appProficiency} label={`${appProficiency}%`} />
+                {/* <ProgressBar now={appProficiency} label={`${appProficiency}%`} /> */}
+                <span className={skillstyle.progressBar} style={{ width: { appProficiency }, backgroundColor: "red" }}>
+                    <p>{appProficiency}</p>
+                </span>
             </div>
-        </div>
+        </div >
     )
 
 };

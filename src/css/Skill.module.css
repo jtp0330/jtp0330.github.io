@@ -11,12 +11,12 @@
 }
 
 .proficiency {
-    padding: 3px;
+    padding: 6px;
     border-radius: 30px;
 }
 
 .progressBar {
-    height: 5px;
+    height: 6px;
     border-radius: 30px;
     transition: 0.4s linear;
     transition-property: width, background-color;

@@ -11,8 +11,10 @@ const Skill = (props) => {
             <div className={skillstyle.proficiency}>
                 <h2>{appName}</h2>
                 {/* <ProgressBar now={appProficiency} label={`${appProficiency}%`} /> */}
-                <div className={skillstyle.progressBar} style={{ width: `${appProficiency}%`, backgroundColor: "aqua" }}>
-                    <p>{appProficiency}</p>
+                <div style={{ display: "flex", alignItems: "center", backgroundColor: "black", width: "100%", height: "9px", borderRadius: "30px" }}>
+                    <div className={skillstyle.progressBar} style={{ width: `${appProficiency}%`, backgroundColor: "aqua" }}>
+                        <p style={{ backgroundColor: "transparent", textAlign: "left" }}>{appProficiency}%</p>
+                    </div>
                 </div>
             </div>
         </div >

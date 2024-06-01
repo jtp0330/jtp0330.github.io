@@ -18,9 +18,10 @@
 .progressBar {
     height: 6px;
     border-radius: 30px;
+    background-color: black;
     transition: 0.4s linear;
     transition-property: width, background-color;
-    animation: progressAnimation 6s;
+    animation: progressAnimation 1.5s;
 }
 
 @keyframes progressAnimation {

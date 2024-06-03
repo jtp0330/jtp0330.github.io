@@ -25,18 +25,21 @@ const About = () => {
             <div className="skills">
                 <Row>
                     <Col><Skill appProficiency={50} appName="HTML" imgPath="./src/images/html5.svg" /></Col>
-                    <Col><Skill appProficiency={10} appName="CSS" imgPath="./src/images/css3.svg" /></Col>
+                    <Col><Skill appProficiency={55} appName="CSS" imgPath="./src/images/css3.svg" /></Col>
+                    <Col><Skill appProficiency={65} appName="JavaScript" imgPath="./src/images/kisspng-javascript-programmer-node-js-web-application-vector-markup-language-5b173fc201e143.7543356315282503060077.png" /></Col>
                     <Col><Skill appProficiency={65} appName="JavaScript" imgPath="./src/images/kisspng-javascript-programmer-node-js-web-application-vector-markup-language-5b173fc201e143.7543356315282503060077.png" /></Col>
                 </Row>
                 <Row>
-                    <Col><Skill appProficiency={30} appName="Python" imgPath="./src/images/python.svg" /></Col>
-                    <Col><Skill appProficiency={65} appName="Java" imgPath="./src/images/java.svg" /></Col>
-                    <Col><Skill appProficiency={70} appName="Spring" imgPath="./src/images/spring.svg" /></Col>
+                    <Col><Skill appProficiency={70} appName="Python" imgPath="./src/images/python.svg" /></Col>
+                    <Col><Skill appProficiency={50} appName="Java" imgPath="./src/images/java.svg" /></Col>
+                    <Col><Skill appProficiency={45} appName="Spring" imgPath="./src/images/spring.svg" /></Col>
+                    <Col><Skill appProficiency={45} appName="Spring" imgPath="./src/images/spring.svg" /></Col>
                 </Row>
                 <Row>
-                    <Col><Skill appProficiency={80} appName="React" imgPath="./src/images/react.svg" /></Col>
-                    <Col><Skill appProficiency={100} appName="Bash" imgPath="./src/images/bash.svg" /></Col>
-                    <Col><Skill appProficiency={90} appName="Linux" imgPath="./src/images/linux.svg" /></Col>
+                    <Col><Skill appProficiency={55} appName="React" imgPath="./src/images/react.svg" /></Col>
+                    <Col><Skill appProficiency={65} appName="Bash" imgPath="./src/images/bash.svg" /></Col>
+                    <Col><Skill appProficiency={60} appName="Linux" imgPath="./src/images/linux.svg" /></Col>
+                    <Col><Skill appProficiency={60} appName="Linux" imgPath="./src/images/linux.svg" /></Col>
                 </Row>
 
             </div>

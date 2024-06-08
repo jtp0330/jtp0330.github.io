@@ -17,14 +17,18 @@ const Contact = () => {
                 <li><a href="https://github.com/jtp0330">GitHub</a></li>
             </ul>
             <form>
-                <label for="">First Name</label>
-                <input type="text"></input>
-                <label for="text">Last Name</label>
-                <input></input>
-                <label for="text">Email</label>
-                <input></input>
-                <label for="textarea">Message</label>
-                <input></input>
+                <div className={`${contactstyle.field}`}>
+                    <label for="">First Name</label>
+                    <input type="text"></input></div>
+                <div className={`${contactstyle.field}`}>
+                    <label for="text">Last Name</label>
+                    <input></input></div >
+                <div className={`${contactstyle.field}`}>
+                    <label for="text">Email</label>
+                    <input></input></div >
+                <div className={`${contactstyle.field}`}>
+                    <label for="textarea">Message</label>
+                    <input></input></div >
                 <input type="submit" />
             </form>
         </div >

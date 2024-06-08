@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,8 +9,8 @@
     background-color: #8596ad;
     padding-right: 25px;
     gap: 25px;
-    position:fixed;
-    top:0%;
+    position: fixed;
+    top: 0%;
     width: 100%;
     z-index: 1;
 }
@@ -20,7 +20,8 @@
 }
 
 .navLinks {
-    background-color: #8596ad;
+
+    color: #222529 !important;
 }
 
 .tab {

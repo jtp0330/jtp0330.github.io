@@ -1,10 +1,46 @@
-import react from 'react'
+import { useState } from 'react'
 import contactstyle from '../css/Contact.module.css'
+import emailjs from '@emailjs/browser'
+
+
+const sendEmail = (emailDetails) => {
+    emailjs.init(import.meta.env.VITE_EMAIL_USER_ID)
+    emailjs.send(
+        import.meta.env.VITE_EMAIL_SERVICE_ID,
+        import.meta.env.VITE_EMAIL_TEMPLATE_ID,
+        {
+            from_name: emailDetails.sender,
+            message: emailDetails.message
+        }
+    ).then(
+        (resp) => {
+            console.log(resp)
+        }
+    ).catch(
+        (err) => {
+            console.error(err)
+        }
+    )
+};
+
 
 const Contact = () => {
 
-    const sendEmail = () => {
+    const [firstName, setFirstName] = useState("")
+    const [lastName, setLastName] = useState("")
+    const [email, setEmail] = useState("")
+    const [message, setMessage] = useState("")
+
+    const prepareEmail = () => {
+
         alert("Email has been sent!")
+
+        const details = {
+            "sender": email,
+            "message": message,
+        }
+
+        sendEmail(details)
     }
     return (
         <div className={`${contactstyle.contact} text-center`}>
@@ -19,17 +55,17 @@ const Contact = () => {
             <form>
                 <div className={`${contactstyle.field}`}>
                     <label for="">First Name</label>
-                    <input type="text"></input></div>
+                    <input type="text" onChange={(e) => { setFirstName(e.target.value) }}></input></div>
                 <div className={`${contactstyle.field}`}>
                     <label for="text">Last Name</label>
-                    <input></input></div >
+                    <input onChange={(e) => { setLastName(e.target.value) }}></input></div >
                 <div className={`${contactstyle.field}`}>
                     <label for="text">Email</label>
-                    <input></input></div >
+                    <input type="text" onChange={(e) => { setEmail(e.target.value) }}></input></div >
                 <div className={`${contactstyle.field}`}>
                     <label for="textarea">Message</label>
-                    <input></input></div >
-                <input type="submit" />
+                    <input type="textarea" onChange={(e) => { setMessage(e.target.value) }}></input></div >
+                <input type="submit" className="btn-primary" />
             </form>
         </div >
     );

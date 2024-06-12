@@ -8,7 +8,9 @@ import tabstyle from '../css/Tabs.module.css'
 //use Tab Pills for desired effect
 
 const Tabs = () => {
-
+    console.log(window.innerWidth)
+    console.log(window.innerHeight)
+    //on current monitor: w: 1595-2276, h: 1012-1092
     return (
         <Tab.Container id="portfolio-nav" defaultActiveKey="home" style={"backgroundColor: #8596ad"}>
             <Nav variant="pills" className={tabstyle.tabLinks} >

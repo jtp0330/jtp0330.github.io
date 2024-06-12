@@ -2,7 +2,7 @@ import { useState } from 'react'
 import contactstyle from '../css/Contact.module.css'
 import emailjs from '@emailjs/browser'
 
-
+//helper function to send emails to service account
 const sendEmail = (emailDetails) => {
     emailjs.init(import.meta.env.VITE_EMAIL_USER_ID)
     emailjs.send(
@@ -42,6 +42,7 @@ const Contact = () => {
 
         sendEmail(details)
     }
+
     return (
         <div className={`${contactstyle.contact} text-center`}>
             <h1>Let's Get In Touch!</h1>
@@ -52,7 +53,7 @@ const Contact = () => {
                 <li><a href="https://www.linkedin.com/in/jared-park-computer-scientist159/">LinkedIn</a></li>
                 <li><a href="https://github.com/jtp0330">GitHub</a></li>
             </ul>
-            <form>
+            <form onSubmit={prepareEmail}>
                 <div className={`${contactstyle.field}`}>
                     <label for="">First Name</label>
                     <input type="text" onChange={(e) => { setFirstName(e.target.value) }}></input></div>
@@ -64,10 +65,10 @@ const Contact = () => {
                     <input type="text" onChange={(e) => { setEmail(e.target.value) }}></input></div >
                 <div className={`${contactstyle.field}`}>
                     <label for="textarea">Message</label>
-                    <input type="textarea" onChange={(e) => { setMessage(e.target.value) }}></input></div >
+                    <textarea onChange={(e) => { setMessage(e.target.value) }}></textarea></div >
                 <input type="submit" className="btn-primary" />
             </form>
         </div >
     );
 };
-export default Contact
+export default Contact;

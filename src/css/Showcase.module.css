@@ -1,16 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-
 .showcase {
     transition: all .2s ease-in-out;
     display: flex;
     flex-direction: column;
     gap: 25px;
     justify-content: space-evenly;
-    margin-top: 75px;
+    background-color: #bccbde;
+    height: 100vh;
 }
 
 .projects {
@@ -20,6 +15,7 @@
     animation-duration: 1s;
     animation-name: slidein;
     margin: 10px;
+    width: 100vh;
 }
 
 @keyframes slidein {
@@ -30,6 +26,6 @@
 
     to {
         margin-left: 0%;
-        width: 100%;
+        width: 45%;
     }
 }

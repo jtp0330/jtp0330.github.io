@@ -1,12 +1,13 @@
 .contact {
     animation-duration: 0.5s;
     animation-name: fadeIn;
-    margin-top: 75px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
     align-items: center;
+    background-color: #bccbde;
+    height: 100vh;
 }
 
 

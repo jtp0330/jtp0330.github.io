@@ -1,6 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
+
     scroll-behavior: smooth;
 }
 
@@ -15,6 +14,7 @@
     justify-content: center;
     overflow: "scroll";
     gap: 25px;
+    background-color: #bccbde;
 }
 
 .introduction {

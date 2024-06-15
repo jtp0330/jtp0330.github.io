@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser'
 
 //helper function to send emails to service account
 const sendEmail = (emailDetails) => {
+    e.preventDefault()
     emailjs.init(import.meta.env.VITE_EMAIL_USER_ID)
     emailjs.send(
         import.meta.env.VITE_EMAIL_SERVICE_ID,
@@ -19,6 +20,13 @@ const sendEmail = (emailDetails) => {
     ).catch(
         (err) => {
             console.error(err)
+        }
+    ).finally(
+        (_) => {
+            setFirstName("")
+            setLastName("")
+            setEmail("")
+            setMessage("")
         }
     )
 };
@@ -55,16 +63,16 @@ const Contact = () => {
             </ul>
             <form onSubmit={prepareEmail}>
                 <div className={`${contactstyle.field}`}>
-                    <label for="">First Name</label>
+                    <label htmlFor="">First Name</label>
                     <input type="text" onChange={(e) => { setFirstName(e.target.value) }}></input></div>
                 <div className={`${contactstyle.field}`}>
-                    <label for="text">Last Name</label>
+                    <label htmlFor="text">Last Name</label>
                     <input onChange={(e) => { setLastName(e.target.value) }}></input></div >
                 <div className={`${contactstyle.field}`}>
-                    <label for="text">Email</label>
+                    <label htmlFor="text">Email</label>
                     <input type="text" onChange={(e) => { setEmail(e.target.value) }}></input></div >
                 <div className={`${contactstyle.field}`}>
-                    <label for="textarea">Message</label>
+                    <label htmlFor="textarea">Message</label>
                     <textarea onChange={(e) => { setMessage(e.target.value) }}></textarea></div >
                 <input type="submit" className="btn-primary" />
             </form>

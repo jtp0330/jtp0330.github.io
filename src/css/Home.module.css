@@ -36,50 +36,55 @@ phone
 */
 @media only screen and (max-width: 767px) {
 
-.introduction {
-    height: 68vh;
-}
-.header {
-    margin: 25% auto;
+    .introduction {
+        height: 68vh;
+    }
 
- }
+    .header {
+        margin: 25% auto;
+
+    }
 }
+
 /*
 tablet
 */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-.introduction {
-    height: 68vh;
-}
-.header {
-    margin: 25% auto;
+    .introduction {
+        height: 68vh;
+    }
 
- }
+    .header {
+        margin: 25% auto;
+
+    }
 }
+
 /*
 laptop
 */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
-.introduction {
-    height: 68vh;
-}
+    .introduction {
+        height: 68vh;
+    }
 
-.header {
-    margin: 25% auto;
-}
+    .header {
+        margin: 25% auto;
+    }
 }
 
 /*
 desktop
 */
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:1250px) {
     .introduction {
         height: 68vh;
     }
+
     .header {
-        margin: 25% auto;
+        margin: 20% auto;
     }
 }
 

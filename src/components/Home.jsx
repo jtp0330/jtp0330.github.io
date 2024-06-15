@@ -38,7 +38,7 @@ const Home = () => {
             </header>
             <main>
                 <div className={`${homestyle.introduction} ${homestyle.change}`}>
-                    <img src="./src/images/Portrait.jpeg" alt="My Portrait" width="650" height="687" />
+                    <img src="./src/images/Portrait.jpeg" alt="My Portrait"  />
                     <p>My name, is Jared Park
                         <br />I am a SWE | IT Support | Cloud Operations with an interest in Cloud Computing</p>
                 </div>

@@ -17,6 +17,7 @@
     background-color: #bccbde;
 }
 
+
 .introduction {
     display: flex;
     flex-direction: row;
@@ -30,6 +31,43 @@
     gap: 25px;
     height: 68vh;
 }
+
+/*
+phone
+*/
+@media only screen and (max-width: 767px) {}
+
+.introduction {
+    height: 68vh;
+}
+
+/*
+tablet
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+.introduction {
+    height: 68vh;
+}
+
+/*
+laptop
+*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+.introduction {
+    height: 68vh;
+}
+
+/*
+desktop
+*/
+@media only screen and (min-width:1200px) {
+    .introduction {
+        height: 68vh;
+    }
+}
+
 
 .header {
     margin: 20% auto;

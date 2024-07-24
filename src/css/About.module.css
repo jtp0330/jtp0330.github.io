@@ -1,13 +1,13 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
 .about {
     margin-top: 50px;
     font-size: 11px;
     background-color: #bccbde;
-
+    height: 150vh;
 }
 
 /*

@@ -15,7 +15,9 @@
     animation-duration: 1s;
     animation-name: slidein;
     margin: 10px;
-    width: 100vh;
+    width: 100vw;
+    height: 45vh;
+
 }
 
 @keyframes slidein {

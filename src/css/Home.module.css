@@ -78,7 +78,7 @@ laptop
 /*
 desktop
 */
-@media only screen and (min-width:1250px) {
+@media only screen and (min-width:1350px) {
     .introduction {
         height: 68vh;
     }

@@ -15,8 +15,9 @@
     gap: 10%;
     animation-duration: 1s;
     animation-name: slidein;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     height: 45vh;
+    padding: 50px;
 }
 
 .project {

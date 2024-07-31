@@ -1,6 +1,6 @@
 import react from 'react'
 import Tabs from './components/Tabs'
-import './App.css'
+import './css/App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 

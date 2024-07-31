@@ -7,10 +7,10 @@ const About = () => {
 
     return (
         <div className={`${aboutstyle.about} d-flex flex-row`}>
-            <div className="d-flex flex-column w-100">
+            <div className="d-flex flex-column w-100 p-5">
                 <p className="display-3 m-3">My CS Journey</p>
 
-                <p><small>My first introduction to code and programming concepts was in high school of my senior year,
+                <p className="">My first introduction to code and programming concepts was in high school of my senior year,
                     <br />where I became intrigued by the complex systems, orderly designs, and
                     <br />collaborated effort to modify our daily lives.
                     <br />
@@ -21,7 +21,7 @@ const About = () => {
                     <br />deploy, manage and delegate IT-managed software and hardening.
                     <br />
                     <br />
-                </small></p>
+                </p>
             </div>
             <div className="d-flex flex-column g-25 justify-content-center align-items-center">
             <div className="d-flex flex-row justify-content-center align-items-start">

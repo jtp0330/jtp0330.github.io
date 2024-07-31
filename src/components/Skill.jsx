@@ -6,7 +6,7 @@ const Skill = (props) => {
     const { appProficiency, appName, imgPath } = props;
 
     return (
-        <div className="d-flex flex-row justify-content-start align-items-center p-3 w-25">
+        <div className="d-flex flex-row justify-content-start align-items-center p-5 w-">
             <img src={imgPath} alt="app logo" width="75" height="75" />
             <div className={skillstyle.proficiency}>
                 <h2>{appName}</h2>

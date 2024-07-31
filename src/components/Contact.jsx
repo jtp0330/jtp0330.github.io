@@ -62,30 +62,24 @@ const Contact = () => {
     return (
         <div className={`${contactstyle.contact} text-center`}>
             <h1>Let's Get In Touch!</h1>
-
-            {/* TBD: replace with a form */}
             <ul>
                 <p>Please reach out to me on my LinkedIn for more inquires regarding my services.</p>
                 <li><a href="https://www.linkedin.com/in/jared-park-computer-scientist159/">LinkedIn</a></li>
                 <li><a href="https://github.com/jtp0330">GitHub</a></li>
             </ul>
-            <form onSubmit={sendEmail}>
-                <div className={`${contactstyle.field}`}>
-                    <label htmlFor="text">First Name</label>
-                    <input type="text" onChange={(e) => { setFirstName(e.target.value) }}></input>
-                </div>
-                <div className={`${contactstyle.field}`}>
-                    <label htmlFor="text">Last Name</label>
-                    <input onChange={(e) => { setLastName(e.target.value) }}></input>
-                </div >
-                <div className={`${contactstyle.field}`}>
-                    <label htmlFor="text">Email</label>
-                    <input type="text" onChange={(e) => { setEmail(e.target.value) }}></input>
-                </div >
-                <div className={`${contactstyle.field}`}>
-                    <label htmlFor="textarea">Message</label>
-                    <textarea onChange={(e) => { setMessage(e.target.value) }}></textarea>
-                </div >
+            <form onSubmit={prepareEmail} className="d-flex flex-column justify-content-center align-items-center">
+                <div className={`d-flex flex-row mb-3`}>
+                    <label htmlFor="" className="form-label">First Name</label>
+                    <input type="text" className="form-control" onChange={(e) => { setFirstName(e.target.value) }}></input></div>
+                <div className={`d-flex flex-row mb-3`}>
+                    <label htmlFor="text" className="form-label">Last Name</label>
+                    <input className="form-control" onChange={(e) => { setLastName(e.target.value) }}></input></div >
+                <div className={`d-flex flex-row mb-3`}>
+                    <label htmlFor="text" className="form-label">Email</label>
+                    <input type="text" className="form-control" onChange={(e) => { setEmail(e.target.value) }}></input></div >
+                <div className={`d-flex flex-row mb-3`}>
+                    <label htmlFor="textarea" className="form-label">Message</label>
+                    <textarea className="form-control" onChange={(e) => { setMessage(e.target.value) }}></textarea></div >
                 <input type="submit" className="btn btn-primary" />
             </form>
         </div >

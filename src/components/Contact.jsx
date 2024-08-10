@@ -67,20 +67,20 @@ const Contact = () => {
                 <li><a href="https://www.linkedin.com/in/jared-park-computer-scientist159/">LinkedIn</a></li>
                 <li><a href="https://github.com/jtp0330">GitHub</a></li>
             </ul>
-            <form onSubmit={prepareEmail} className="d-flex flex-column justify-content-center align-items-center">
-                <div className={`d-flex flex-row mb-3`}>
-                    <label htmlFor="" className="form-label">First Name</label>
+            <form onSubmit={prepareEmail} className="d-flex flex-column justify-content-center align-items-left">
+                <div className={`d-flex flex-row p-3`}>
+                    <label htmlFor="" className="col-form-label col-sm-4">First Name</label>
                     <input type="text" className="form-control" onChange={(e) => { setFirstName(e.target.value) }}></input></div>
-                <div className={`d-flex flex-row mb-3`}>
-                    <label htmlFor="text" className="form-label">Last Name</label>
+                <div className={`d-flex flex-row p-3`}>
+                    <label htmlFor="text" className="col-form-label col-sm-4">Last Name</label>
                     <input className="form-control" onChange={(e) => { setLastName(e.target.value) }}></input></div >
-                <div className={`d-flex flex-row mb-3`}>
-                    <label htmlFor="text" className="form-label">Email</label>
+                <div className={`d-flex flex-row p-3`}>
+                    <label htmlFor="text" className="col-form-label col-sm-4">Email</label>
                     <input type="text" className="form-control" onChange={(e) => { setEmail(e.target.value) }}></input></div >
-                <div className={`d-flex flex-row mb-3`}>
-                    <label htmlFor="textarea" className="form-label">Message</label>
+                <div className={`d-flex flex-row p-3`}>
+                    <label htmlFor="textarea" className="col-form-label col-sm-4">Message</label>
                     <textarea className="form-control" onChange={(e) => { setMessage(e.target.value) }}></textarea></div >
-                <input type="submit" className="btn btn-primary" />
+                <input type="submit" className="btn btn-primary m-3" />
             </form>
         </div >
     );

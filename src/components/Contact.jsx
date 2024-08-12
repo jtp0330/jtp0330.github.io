@@ -12,13 +12,12 @@ const Contact = () => {
     const [message, setMessage] = useState("")
 
     const prepareEmail = () => {
-        // e.preventDefault()
 
         const details = {
             "sender": email,
             "message": message,
         }
-        // sendEmail(details)
+        sendEmail(details)
         alert("Email has been sent!")
     }
 

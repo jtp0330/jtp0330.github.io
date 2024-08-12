@@ -24,9 +24,9 @@ const About = () => {
                 </p>
             </div>
             <div className="d-flex flex-column g-25 justify-content-center align-items-center">
-            <div className="d-flex flex-row justify-content-center align-items-start">
-                <p>Development Skills</p>
-            </div>
+                <div className="d-flex flex-row justify-content-center align-items-start">
+                    <p className="f-6"><strong>Development Skills</strong></p>
+                </div>
                 <div className="d-flex flex-row justify-content-center align-items-center w-50">
                     <div className="row">
                         <div className="col"><Skill appProficiency={55} appName="CSS" imgPath="./src/images/css3.svg" /></div>

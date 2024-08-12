@@ -1,5 +1,4 @@
 import projectstyle from '../../css/Project.module.css'
-import Card from 'react-bootstrap/Card'
 
 const Project = (props) => {
 
@@ -7,18 +6,18 @@ const Project = (props) => {
     const { projectName, projectDescription, projectLink, projectImage } = props;
 
     return (
-        <Card className={`${projectstyle.projectContent} hover-zoom hover-shadow bg-dark text-light`} border="light">
-            <Card.Img className={projectstyle.projectImages} variant="top" src={`${projectImage}`} alt="Project picture" />
-            <Card.Body>
+        <div className={`${projectstyle.projectContent} card col-sm-3 hover-zoom hover-shadow bg-dark text-light`} border="light">
+            <img className={`${projectstyle.projectImages} card-img-top`} src={`${projectImage}`} alt="Project picture" />
+            <div className="card-body">
                 <div className={`${projectstyle.projectText}`}>
-                    <Card.Title><h3 id="project_header">{projectName}</h3></Card.Title>
-                    <Card.Text>
+                    <h3 className="card-title" id="project_header">{projectName}</h3>
+                    <div className="card-text p-3">
                         <p className="fs-6">{projectDescription}</p>
                         <a href={projectLink} className="fs-6">View Project Here</a>
-                    </Card.Text>
+                    </div>
                 </div>
-            </Card.Body>
-        </Card>
+            </div>
+        </div>
     )
 }
 export default Project;

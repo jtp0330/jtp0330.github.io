@@ -38,13 +38,13 @@ const About = () => {
                         <div className="col"><Skill appProficiency={55} appName="CSS" imgPath="./src/images/css3.svg" /></div>
                         <div className="col"><Skill appProficiency={50} appName="Java" imgPath="./src/images/java.svg" /></div>
                         <div className="col"><Skill appProficiency={45} appName="Spring" imgPath="./src/images/spring.svg" /></div>
-                        <div className="col"><Skill appProficiency={45} appName="MacOS" imgPath="./src/images/vecteezy_apple_1199813.png" /></div>
+                        <div className="col"><Skill appProficiency={60} appName="MacOS" imgPath="./src/images/vecteezy_apple_1199813.png" /></div>
                     </div>
                     <div className="row">
                         <div className="col"><Skill appProficiency={65} appName="JavaScript" imgPath="./src/images/kisspng-javascript-programmer-node-js-web-application-vector-markup-language-5b173fc201e143.7543356315282503060077.png" /></div>
                         <div className="col"><Skill appProficiency={65} appName="Bash" imgPath="./src/images/bash.svg" /></div>
                         <div className="col"><Skill appProficiency={55} appName="React" imgPath="./src/images/react.svg" /></div>
-                        <div className="col"><Skill appProficiency={60} appName="Linux" imgPath="./src/images/linux.svg" /></div>
+                        <div className="col"><Skill appProficiency={45} appName="Linux" imgPath="./src/images/linux.svg" /></div>
                     </div>
 
                 </div>

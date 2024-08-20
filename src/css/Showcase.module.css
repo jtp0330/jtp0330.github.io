@@ -2,7 +2,7 @@
     transition: all .2s ease-in-out;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     justify-content: space-evenly;
     background-color: #bccbde;
     height: 100vh;
@@ -12,12 +12,12 @@
 .projects {
     display: inherit;
     flex-direction: row;
-    gap: 10%;
+    justify-content: center;
+    gap: 5%;
     animation-duration: 1s;
     animation-name: slidein;
-    /* margin-left: 10%; */
+    margin-left: 5%;
     height: 45vh;
-    padding: 50px;
 }
 
 .project {
@@ -28,11 +28,11 @@
 @keyframes slidein {
     from {
         margin-left: 100%;
-        width: 300%;
+        width: 25%;
     }
 
     to {
-        margin-left: 10%;
-        width: 45%;
+        margin-left: 5%;
+        width: 95%;
     }
 }

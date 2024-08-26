@@ -4,7 +4,7 @@ import Home from './Home.jsx';
 import About from './About.jsx';
 import Showcase from './projects_showcase/Showcase.jsx';
 import Contact from './Contact.jsx';
-import tabstyle from '../css/Tabs.module.css'
+import tabstyle from '/docs/assets/css/Tabs.module.css'
 //use Tab Pills for desired effect
 
 const Tabs = () => {

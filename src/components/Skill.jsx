@@ -1,5 +1,5 @@
 import ProgressBar from 'react-bootstrap/ProgressBar'
-import skillstyle from '../css/Skill.module.css'
+import skillstyle from '/docs/assets/css/Skill.module.css'
 
 const Skill = (props) => {
 

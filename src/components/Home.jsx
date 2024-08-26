@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { useInView, InView } from 'react-intersection-observer'
-import homestyle from '../css/Home.module.css'
+import homestyle from '/docs/assets/css/Home.module.css'
 //utilize intersection observer to display welcome, then your infor card
 
 
@@ -38,7 +38,7 @@ const Home = () => {
             </header>
             <main>
                 <div className={`${homestyle.introduction} ${homestyle.change}`}>
-                    <img src="./src/assets/images/Portrait.JPEG" alt="My Portrait" />
+                    <img src="/docs/assets/images/Portrait.JPEG" alt="My Portrait" />
                     <p>My name, is Jared Park
                         <br />I am a SWE | IT Support | Cloud Operations with an interest in Cloud Automation and DevOps.</p>
                 </div>

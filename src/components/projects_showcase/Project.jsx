@@ -1,4 +1,4 @@
-import projectstyle from '../../css/Project.module.css'
+import projectstyle from '/docs/assets/css/Project.module.css'
 
 const Project = (props) => {
 

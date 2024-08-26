@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import contactstyle from '../css/Contact.module.css'
+import contactstyle from '/docs/assets/css/Contact.module.css'
 import emailjs from '@emailjs/browser'
 //helper function to send emails to service account
 

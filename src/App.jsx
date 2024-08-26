@@ -1,7 +1,7 @@
 import react from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Tabs from './components/Tabs'
-import './css/App.css'
+import '/docs/assets/css/App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

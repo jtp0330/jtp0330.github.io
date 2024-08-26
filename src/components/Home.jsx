@@ -38,9 +38,9 @@ const Home = () => {
             </header>
             <main>
                 <div className={`${homestyle.introduction} ${homestyle.change}`}>
-                    <img src="./src/images/Portrait.jpeg" alt="My Portrait"  />
+                    <img src="./src/images/Portrait.JPEG" alt="My Portrait" />
                     <p>My name, is Jared Park
-                        <br />I am a SWE | IT Support | Cloud Operations with an interest in Cloud Computing</p>
+                        <br />I am a SWE | IT Support | Cloud Operations with an interest in Cloud Automation and DevOps.</p>
                 </div>
             </main>
         </div>

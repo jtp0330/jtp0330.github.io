@@ -29,22 +29,22 @@ const About = () => {
                 </div>
                 <div className="d-flex flex-row justify-content-center align-items-center w-50">
                     <div className="row">
-                        <div className="col"><Skill appProficiency={50} appName="HTML" imgPath="./src/images/html5.SVG" /></div>
-                        <div className="col"><Skill appProficiency={70} appName="Python" imgPath="./src/images/python.SVG" /></div>
-                        <div className="col"><Skill appProficiency={25} appName="GoLang" imgPath="./src/images/go.SVG" /></div>
-                        <div className="col"><Skill appProficiency={60} appName="Windows" imgPath="./src/images/vecteezy_window-10-logo-PNG-window-10-icon-transparent-PNG_20975574.PNG" /></div>
+                        <div className="col"><Skill appProficiency={50} appName="HTML" imgPath="./src/assets/images/html5.SVG" /></div>
+                        <div className="col"><Skill appProficiency={70} appName="Python" imgPath="./src/assets/images/python.SVG" /></div>
+                        <div className="col"><Skill appProficiency={25} appName="GoLang" imgPath="./src/assets/images/go.SVG" /></div>
+                        <div className="col"><Skill appProficiency={60} appName="Windows" imgPath="./src/assets/images/vecteezy_window-10-logo-PNG-window-10-icon-transparent-PNG_20975574.PNG" /></div>
                     </div>
                     <div className="row">
-                        <div className="col"><Skill appProficiency={55} appName="CSS" imgPath="./src/images/css3.SVG" /></div>
-                        <div className="col"><Skill appProficiency={50} appName="Java" imgPath="./src/images/java.SVG" /></div>
-                        <div className="col"><Skill appProficiency={45} appName="Spring" imgPath="./src/images/spring.SVG" /></div>
-                        <div className="col"><Skill appProficiency={60} appName="MacOS" imgPath="./src/images/vecteezy_apple_1199813.PNG" /></div>
+                        <div className="col"><Skill appProficiency={55} appName="CSS" imgPath="./src/assets/images/css3.SVG" /></div>
+                        <div className="col"><Skill appProficiency={50} appName="Java" imgPath="./src/assets/images/java.SVG" /></div>
+                        <div className="col"><Skill appProficiency={45} appName="Spring" imgPath="./src/assets/images/spring.SVG" /></div>
+                        <div className="col"><Skill appProficiency={60} appName="MacOS" imgPath="./src/assets/images/vecteezy_apple_1199813.PNG" /></div>
                     </div>
                     <div className="row">
-                        <div className="col"><Skill appProficiency={65} appName="JavaScript" imgPath="./src/images/kissPNG-javascript-programmer-node-js-web-application-vector-markup-language-5b173fc201e143.7543356315282503060077.PNG" /></div>
-                        <div className="col"><Skill appProficiency={65} appName="Bash" imgPath="./src/images/bash.SVG" /></div>
-                        <div className="col"><Skill appProficiency={55} appName="React" imgPath="./src/images/react.SVG" /></div>
-                        <div className="col"><Skill appProficiency={45} appName="Linux" imgPath="./src/images/linux.SVG" /></div>
+                        <div className="col"><Skill appProficiency={65} appName="JavaScript" imgPath="./src/assets/images/kissPNG-javascript-programmer-node-js-web-application-vector-markup-language-5b173fc201e143.7543356315282503060077.PNG" /></div>
+                        <div className="col"><Skill appProficiency={65} appName="Bash" imgPath="./src/assets/images/bash.SVG" /></div>
+                        <div className="col"><Skill appProficiency={55} appName="React" imgPath="./src/assets/images/react.SVG" /></div>
+                        <div className="col"><Skill appProficiency={45} appName="Linux" imgPath="./src/assets/images/linux.SVG" /></div>
                     </div>
 
                 </div>

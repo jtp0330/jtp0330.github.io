@@ -3,6 +3,19 @@ import Skill from './Skill.jsx'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+import Html from '../../docs/assets/images/html5.svg'
+import Css from '../../docs/assets/images/css3.svg'
+import Js from '../../docs/assets/images/javascript.svg'
+import Python from '../../docs/assets/images/python.svg'
+import Java from '../../docs/assets/images/java.svg'
+import Bash from '../../docs/assets/images/bash.svg'
+import Golang from '../../docs/assets/images/go.svg'
+import Spring from '../../docs/assets/images/spring.svg'
+import React from '../../docs/assets/images/react.svg'
+import Windows from '../../docs/assets/images/vecteezy_window-10-logo-png-window-10-icon-transparent-png_20975574.png'
+import Macos from '../../docs/assets/images/vecteezy_apple_1199813.png'
+import Linux from '../../docs/assets/images/linux.svg'
+
 const About = () => {
 
     return (
@@ -29,22 +42,22 @@ const About = () => {
                 </div>
                 <div className="d-flex flex-row justify-content-center align-items-center w-50">
                     <div className="row">
-                        <div className="col"><Skill appProficiency={50} appName="HTML" imgPath="/docs/assets/images/html5.SVG" /></div>
-                        <div className="col"><Skill appProficiency={70} appName="Python" imgPath="/docs/assets/images/python.SVG" /></div>
-                        <div className="col"><Skill appProficiency={25} appName="GoLang" imgPath="/docs/assets/images/go.SVG" /></div>
-                        <div className="col"><Skill appProficiency={60} appName="Windows" imgPath="/docs/assets/images/vecteezy_window-10-logo-PNG-window-10-icon-transparent-PNG_20975574.PNG" /></div>
+                        <div className="col"><Skill appProficiency={50} appName="HTML" imgPath={Html} /></div>
+                        <div className="col"><Skill appProficiency={70} appName="Python" imgPath={Python} /></div>
+                        <div className="col"><Skill appProficiency={25} appName="GoLang" imgPath={Golang} /></div>
+                        <div className="col"><Skill appProficiency={60} appName="Windows" imgPath={Windows} /></div>
                     </div>
                     <div className="row">
-                        <div className="col"><Skill appProficiency={55} appName="CSS" imgPath="/docs/assets/images/css3.SVG" /></div>
-                        <div className="col"><Skill appProficiency={50} appName="Java" imgPath="/docs/assets/images/java.SVG" /></div>
-                        <div className="col"><Skill appProficiency={45} appName="Spring" imgPath="/docs/assets/images/spring.SVG" /></div>
-                        <div className="col"><Skill appProficiency={60} appName="MacOS" imgPath="/docs/assets/images/vecteezy_apple_1199813.PNG" /></div>
+                        <div className="col"><Skill appProficiency={55} appName="CSS" imgPath={Css} /></div>
+                        <div className="col"><Skill appProficiency={50} appName="Java" imgPath={Java} /></div>
+                        <div className="col"><Skill appProficiency={45} appName="Spring" imgPath={Spring} /></div>
+                        <div className="col"><Skill appProficiency={60} appName="MacOS" imgPath={Macos} /></div>
                     </div>
                     <div className="row">
-                        <div className="col"><Skill appProficiency={65} appName="JavaScript" imgPath="/docs/assets/images/kissPNG-javascript-programmer-node-js-web-application-vector-markup-language-5b173fc201e143.7543356315282503060077.PNG" /></div>
-                        <div className="col"><Skill appProficiency={65} appName="Bash" imgPath="/docs/assets/images/bash.SVG" /></div>
-                        <div className="col"><Skill appProficiency={55} appName="React" imgPath="/docs/assets/images/react.SVG" /></div>
-                        <div className="col"><Skill appProficiency={45} appName="Linux" imgPath="/docs/assets/images/linux.SVG" /></div>
+                        <div className="col"><Skill appProficiency={65} appName="JavaScript" imgPath={Windows} /></div>
+                        <div className="col"><Skill appProficiency={65} appName="Bash" imgPath={Bash} /></div>
+                        <div className="col"><Skill appProficiency={55} appName="React" imgPath={React} /></div>
+                        <div className="col"><Skill appProficiency={45} appName="Linux" imgPath={Linux} /></div>
                     </div>
 
                 </div>

@@ -54,7 +54,7 @@ const About = () => {
                         <div className="col"><Skill appProficiency={60} appName="MacOS" imgPath={Macos} /></div>
                     </div>
                     <div className="row">
-                        <div className="col"><Skill appProficiency={65} appName="JavaScript" imgPath={Windows} /></div>
+                        <div className="col"><Skill appProficiency={65} appName="JavaScript" imgPath={Js} /></div>
                         <div className="col"><Skill appProficiency={65} appName="Bash" imgPath={Bash} /></div>
                         <div className="col"><Skill appProficiency={55} appName="React" imgPath={React} /></div>
                         <div className="col"><Skill appProficiency={45} appName="Linux" imgPath={Linux} /></div>

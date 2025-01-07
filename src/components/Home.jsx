@@ -40,8 +40,8 @@ const Home = () => {
             <main>
                 <div className={`${homestyle.introduction} ${homestyle.change}`}>
                     <img src={Portrait} alt="My Portrait" />
-                    <p>My name, is Jared Park
-                        <br />I am a SWE | IT Support | Cloud Operations with an interest in Cloud Automation and DevOps.</p>
+                    <p>My name is Jared Park
+                        <br />An Aspiring IT Support Engineer with an interest in DevOps and System Administration</p>
                 </div>
             </main>
         </div>

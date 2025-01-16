@@ -4,6 +4,7 @@ import homestyle from '/docs/assets/css/Home.module.css'
 import Portrait from '../../docs/assets/images/Portrait.jpeg'
 //utilize intersection observer to display welcome, then your infor card
 
+//incorporating Laura html into ReactJSX
 
 //sections for our home page
 const Home = () => {
@@ -47,6 +48,7 @@ const Home = () => {
         </div>
     );
 
+    
 
 };
 export default Home;

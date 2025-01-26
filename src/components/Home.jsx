@@ -2,6 +2,9 @@ import { useState, useEffect, useRef } from 'react'
 import { useInView, InView } from 'react-intersection-observer'
 import homestyle from '/docs/assets/css/Home.module.css'
 import Portrait from '../../docs/assets/images/Portrait.jpeg'
+import About from './About.jsx'
+import Showcase from './projects_showcase/Showcase.jsx'
+import Contact from './Contact.jsx'
 //utilize intersection observer to display welcome, then your infor card
 
 //incorporating Laura html into ReactJSX
@@ -35,15 +38,49 @@ const Home = () => {
 
     return (
         <div className={homestyle.home_page}>
-            <header className={homestyle.header}>
-                <h1 className={`${homestyle.change} display-1`}>Welcome</h1>
-            </header>
-            <main>
-                <div className={`${homestyle.introduction} ${homestyle.change}`}>
-                    <img src={Portrait} alt="My Portrait" />
-                    <p>My name is Jared Park
-                        <br />An Aspiring IT Support Engineer with an interest in DevOps and System Administration</p>
-                </div>
+            {/* <header className={homestyle.header}> */}
+            {/* </header> */}
+
+            <main className="main">
+
+                <section id="hero" className="hero section dark-background">
+
+                    <img src="assets/img/alamare_falls_beach.jpg" alt="" data-aos="fade-in" />
+
+                    <div className="container text-center" data-aos="fade-up" data-aos-delay="100">
+                    <h1 className={`${homestyle.change} display-1`}>Welcome</h1>
+                        <h2>My name is Jared Park</h2>
+                        <p><br />An Aspiring IT Support Engineer with an interest in DevOps and System Administration</p>
+                        <a href="about" className="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+                    </div>
+
+                </section>
+                <section id="hero" className="hero section dark-background">
+                    {/* <div className={`${homestyle.introduction} ${homestyle.change}`}> */}
+                    {/* <img src={Portrait} alt="My Portrait" /> */}
+                        <img src="assets/img/half_dome.jpeg" alt="" data-aos="fade-in" />
+                        <div className="container text-center" data-aos="fade-up" data-aos-delay="100">
+                            <About />
+                        </div>
+                    {/* </div> */}
+                </section>
+                <section id="hero" className="hero section dark-background">
+                    {/* <div className={`${homestyle.introduction} ${homestyle.change}`}> */}
+                    {/* <img src={Portrait} alt="My Portrait" /> */}
+                        <div className="container text-center" data-aos="fade-up" data-aos-delay="100">
+                            <Showcase />
+                        </div>
+                    {/* </div> */}
+                </section>
+                <section id="hero" className="hero section dark-background">
+                    {/* <div className={`${homestyle.introduction} ${homestyle.change}`}> */}
+                    {/* <img src={Portrait} alt="My Portrait" /> */}
+                        <img src="assets/img/half_dome.jpeg" alt="" data-aos="fade-in" />
+                        <div className="container text-center" data-aos="fade-up" data-aos-delay="100">
+                            <Contact />
+                        </div>
+                    {/* </div> */}
+                </section>
             </main>
         </div>
     );

@@ -19,9 +19,9 @@ import Linux from '../../docs/assets/images/linux.svg'
 const About = () => {
 
     return (
-        <div className={`${aboutstyle.about} d-flex flex-row`}>
+        <div className={` d-flex flex-row`}>
             <div className="d-flex flex-column w-100 p-5">
-                <p className="display-3 m-3">My CS Journey</p>
+                <p className="display-3 m-3">My Journey</p>
 
                 <p className="">My first introduction to code and programming concepts was in high school of my senior year,
                     <br />where I became intrigued by the complex systems, orderly designs, and

@@ -48,14 +48,14 @@ const Home = () => {
                     <img src="assets/img/alamare_falls_beach.jpg" alt="" data-aos="fade-in" />
 
                     <div className="container text-center" data-aos="fade-up" data-aos-delay="100">
-                    <h1 className={`${homestyle.change} display-1`}>Welcome</h1>
-                        <h2>My name is Jared Park</h2>
-                        <p><br />An Aspiring IT Support Engineer with an interest in DevOps and System Administration</p>
-                        <a href="about" className="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+                    {/* <h1 className={`${homestyle.change} display-1`}>Welcome</h1> */}
+                    <h1 className={`${homestyle.change} display-1`}>Jared Park</h1>
+                    <p className={`${homestyle.change} display-2`}><br />An Aspiring IT Support Engineer with an interest in DevOps and System Administration</p>
+                        <a href="#about" className="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
                     </div>
 
                 </section>
-                <section id="hero" className="hero section dark-background">
+                <section id="about" className="hero section dark-background">
                     {/* <div className={`${homestyle.introduction} ${homestyle.change}`}> */}
                     {/* <img src={Portrait} alt="My Portrait" /> */}
                         <img src="assets/img/half_dome.jpeg" alt="" data-aos="fade-in" />
@@ -64,18 +64,18 @@ const Home = () => {
                         </div>
                     {/* </div> */}
                 </section>
-                <section id="hero" className="hero section dark-background">
+                <section id="showcase" className="hero section dark-background">
                     {/* <div className={`${homestyle.introduction} ${homestyle.change}`}> */}
-                    {/* <img src={Portrait} alt="My Portrait" /> */}
+                    <img src="assets/img/yosemite.jpg" alt="" data-aos="fade-in" />
                         <div className="container text-center" data-aos="fade-up" data-aos-delay="100">
                             <Showcase />
                         </div>
                     {/* </div> */}
                 </section>
-                <section id="hero" className="hero section dark-background">
+                <section id="contact" className="hero section dark-background">
                     {/* <div className={`${homestyle.introduction} ${homestyle.change}`}> */}
                     {/* <img src={Portrait} alt="My Portrait" /> */}
-                        <img src="assets/img/half_dome.jpeg" alt="" data-aos="fade-in" />
+                        <img src="assets/img/bryce_canyon.jpg" alt="" data-aos="fade-in" />
                         <div className="container text-center" data-aos="fade-up" data-aos-delay="100">
                             <Contact />
                         </div>

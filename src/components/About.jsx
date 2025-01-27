@@ -19,9 +19,9 @@ import Linux from '../../docs/assets/images/linux.svg'
 const About = () => {
 
     return (
-        <div className={` d-flex flex-row`}>
+        <div className={`d-flex flex-row`}>
             <div className="d-flex flex-column w-100 p-5">
-                <p className="display-3 m-3">My Journey</p>
+                <h2 className="display-3 m-3">My Journey</h2>
 
                 <p className="">My first introduction to code and programming concepts was in high school of my senior year,
                     <br />where I became intrigued by the complex systems, orderly designs, and
@@ -38,26 +38,26 @@ const About = () => {
             </div>
             <div className="d-flex flex-column g-25 justify-content-center align-items-center">
                 <div className="d-flex flex-row justify-content-center align-items-start">
-                    <p className="f-6"><strong>Development Skills</strong></p>
+                    <h3 className="f-6"><strong>Development Skills</strong></h3>
                 </div>
                 <div className="d-flex flex-row justify-content-center align-items-center w-50">
                     <div className="row">
-                        <div className="col"><Skill appProficiency={50} appName="HTML" imgPath={Html} /></div>
-                        <div className="col"><Skill appProficiency={70} appName="Python" imgPath={Python} /></div>
-                        <div className="col"><Skill appProficiency={25} appName="GoLang" imgPath={Golang} /></div>
-                        <div className="col"><Skill appProficiency={60} appName="Windows" imgPath={Windows} /></div>
+                        <div className="col img-fluid"><Skill appProficiency={50} appName="HTML" imgPath={Html} /></div>
+                        <div className="col img-fluid"><Skill appProficiency={70} appName="Python" imgPath={Python} /></div>
+                        <div className="col img-fluid"><Skill appProficiency={25} appName="GoLang" imgPath={Golang} /></div>
+                        <div className="col img-fluid"><Skill appProficiency={60} appName="Windows" imgPath={Windows} /></div>
                     </div>
                     <div className="row">
-                        <div className="col"><Skill appProficiency={55} appName="CSS" imgPath={Css} /></div>
-                        <div className="col"><Skill appProficiency={50} appName="Java" imgPath={Java} /></div>
-                        <div className="col"><Skill appProficiency={45} appName="Spring" imgPath={Spring} /></div>
-                        <div className="col"><Skill appProficiency={60} appName="MacOS" imgPath={Macos} /></div>
+                        <div className="col img-fluid"><Skill appProficiency={55} appName="CSS" imgPath={Css} /></div>
+                        <div className="col img-fluid"><Skill appProficiency={50} appName="Java" imgPath={Java} /></div>
+                        <div className="col img-fluid"><Skill appProficiency={45} appName="Spring" imgPath={Spring} /></div>
+                        <div className="col img-fluid"><Skill appProficiency={60} appName="MacOS" imgPath={Macos} /></div>
                     </div>
                     <div className="row">
-                        <div className="col"><Skill appProficiency={65} appName="JavaScript" imgPath={Js} /></div>
-                        <div className="col"><Skill appProficiency={65} appName="Bash" imgPath={Bash} /></div>
-                        <div className="col"><Skill appProficiency={55} appName="React" imgPath={React} /></div>
-                        <div className="col"><Skill appProficiency={45} appName="Linux" imgPath={Linux} /></div>
+                        <div className="col img-fluid"><Skill appProficiency={65} appName="JavaScript" imgPath={Js} /></div>
+                        <div className="col img-fluid"><Skill appProficiency={65} appName="Bash" imgPath={Bash} /></div>
+                        <div className="col img-fluid"><Skill appProficiency={55} appName="React" imgPath={React} /></div>
+                        <div className="col img-fluid"><Skill appProficiency={45} appName="Linux" imgPath={Linux} /></div>
                     </div>
 
                 </div>

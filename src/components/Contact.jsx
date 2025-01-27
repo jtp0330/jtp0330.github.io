@@ -62,9 +62,7 @@ const Contact = () => {
         <div className={`${contactstyle.contact} text-center`}>
             <h1>Let's Get In Touch!</h1>
             <ul>
-                <p>Please reach out to me on my LinkedIn for more inquires regarding my services.</p>
-                <li><a href="https://www.linkedin.com/in/jared-park-computer-scientist159/">LinkedIn</a></li>
-                <li><a href="https://github.com/jtp0330">GitHub</a></li>
+                <p>Fill out the form to send me a message</p>
             </ul>
             <form onSubmit={prepareEmail} className="d-flex flex-column justify-content-center align-items-left">
                 <div className={`d-flex flex-row p-3`}>

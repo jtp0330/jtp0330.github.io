@@ -19,9 +19,9 @@
     height: 6px;
     border-radius: 30px;
     background-color: black;
-    transition: 0.4s linear;
+    transition: 0.5ms linear;
     transition-property: width, background-color;
-    animation: progressAnimation 1.5s;
+    animation: progressAnimation 4s;
 }
 
 @keyframes progressAnimation {

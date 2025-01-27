@@ -5,9 +5,11 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-evenly;
-    background-color: #bccbde;
-    height: 100vh;
+    background-color: white;
+    height: 80vh;
     margin-left: 1% auto;
+    color: black;
+    border-radius: 25%;
 }
 
 .projects {

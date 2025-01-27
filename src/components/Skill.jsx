@@ -7,7 +7,8 @@ const Skill = (props) => {
 
     return (
         <div className="d-flex flex-row justify-content-start align-items-center p-5 w-">
-            <img src={imgPath} alt="app logo" width="75" height="75" />
+            {/*To add images to the Skills section, uncomment this*/}
+            {/* <img src={imgPath} alt="app logo" width="10" height="10" /> */}
             <div className={skillstyle.proficiency}>
                 <h2>{appName}</h2>
                 <div style={{ display: "flex", alignItems: "center", backgroundColor: "black", width: "100%", height: "9px", borderRadius: "30px" }}>

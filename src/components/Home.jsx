@@ -51,7 +51,7 @@ const Home = () => {
                     {/* <h1 className={`${homestyle.change} display-1`}>Welcome</h1> */}
                     <h1 className={`${homestyle.change} display-1`}>Jared Park</h1>
                     <p className={`${homestyle.change} display-2`}><br />An Aspiring IT Support Engineer with an interest in DevOps and System Administration</p>
-                        <a href="#about" className="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+                        <a href="#about" className="btn-scroll" title="Scroll Down"><i className="bi bi-chevron-down"></i></a>
                     </div>
 
                 </section>

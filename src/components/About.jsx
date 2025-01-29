@@ -23,7 +23,7 @@ const About = () => {
             <div className="d-flex flex-column w-100 p-5">
                 <h2 className="display-3 m-3">My Journey</h2>
 
-                <p className="">My first introduction to code and programming concepts was in high school of my senior year,
+                <p className={aboutstyle.intro}>My first introduction to code and programming concepts was in high school of my senior year,
                     <br />where I became intrigued by the complex systems, orderly designs, and
                     <br />collaborated effort to modify our daily lives.
                     <br />

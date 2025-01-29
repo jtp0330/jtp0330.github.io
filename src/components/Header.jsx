@@ -5,7 +5,7 @@ const Header = () => {
     return (
     <div>
     <header id="header" className="header d-flex align-items-center fixed-top">
-        < div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+        < div className="container-fluid position-relative d-flex align-items-center justify-content-between">
             <a href="/" className="logo d-flex align-items-center me-auto me-xl-0">
             {/* Uncomment the line below if you also wish to use an image logo */}
             {/* <img src="assets/img/logo.png" alt=""> */}
